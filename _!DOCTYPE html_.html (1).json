@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Student Test Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="test-container">
+        <h1>Student Skills Test</h1>
+        <div id="timer-display">Time Left: <span id="time">05:00</span></div>
+
+        <div id="quiz">
+            </div>
+
+        <button id="submit-btn" onclick="submitQuiz()">Submit Test</button>
+
+        <div id="results" class="hidden">
+            <h2>Your Results</h2>
+            <p id="score-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
